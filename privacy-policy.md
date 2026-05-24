@@ -39,7 +39,7 @@ Tasnif does not silently delete media. When you choose to delete items, the dele
 
 For privacy questions, contact:
 
-support@safouanalioui.com
+contact@tasnif.app
 
 ---
 
@@ -84,5 +84,4 @@ Tasnif ne supprime rien silencieusement. Lorsque vous choisissez de supprimer de
 
 Pour toute question de confidentialite :
 
-support@safouanalioui.com
-
+contact@tasnif.app

@@ -8,7 +8,7 @@ Tasnif helps you see what takes space in your Photos library, starting with larg
 
 If you need help, contact:
 
-support@safouanalioui.com
+support@tasnif.app
 
 Please include:
 
@@ -19,6 +19,10 @@ Please include:
 - a screenshot if it helps explain the issue.
 
 Do not send private photos or videos unless you choose to. Tasnif support does not need your media to understand most issues.
+
+For general contact, use:
+
+contact@tasnif.app
 
 ## Common Questions
 
@@ -50,7 +54,7 @@ Tasnif aide a voir ce qui prend de la place dans votre phototheque, en commencan
 
 Pour demander de l'aide :
 
-support@safouanalioui.com
+support@tasnif.app
 
 Indiquez si possible :
 
@@ -61,6 +65,10 @@ Indiquez si possible :
 - une capture d'ecran si elle aide a comprendre le probleme.
 
 N'envoyez pas de photos ou videos privees sauf si vous le choisissez. L'assistance Tasnif n'a pas besoin de vos medias pour comprendre la plupart des problemes.
+
+Pour un contact general :
+
+contact@tasnif.app
 
 ## Questions frequentes
 
