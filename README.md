@@ -4,8 +4,8 @@ Tasnif helps you understand what takes space in your Photos library while keepin
 
 ## Public Pages
 
-- [Support](support.md)
-- [Privacy Policy](privacy-policy.md)
+- [Support](support.html)
+- [Privacy Policy](privacy-policy.html)
 
 ---
 
@@ -15,5 +15,5 @@ Tasnif aide a comprendre ce qui prend de la place dans votre phototheque tout en
 
 ## Pages publiques
 
-- [Assistance](support.md)
-- [Politique de confidentialite](privacy-policy.md)
+- [Assistance](support.html)
+- [Politique de confidentialite](privacy-policy.html)
