@@ -1,8 +1,10 @@
 # Tasnif Privacy Policy
 
-Last updated: 2026-05-24
+Last updated: 2026-05-26
 
 Tasnif is designed to help you understand what takes space in your Photos library while keeping your media on your device.
+
+This policy describes the Tasnif 1.1 App Store submission. The submitted 1.1 release is free and does not include ads, ad SDKs, in-app purchases, accounts, analytics SDKs, tracking, or photo uploads.
 
 ## Summary
 
@@ -12,6 +14,7 @@ Tasnif is designed to help you understand what takes space in your Photos librar
 - Tasnif does not sell or share user data.
 - Photos and videos are processed on device.
 - Deletions use Apple's Photos system and require explicit confirmation.
+- The 1.1 App Store submission does not include advertising SDKs or analytics SDKs.
 
 ## Photos Access
 
@@ -31,6 +34,8 @@ Tasnif may store local media size information on your device to avoid checking t
 
 Tasnif does not require a server for its core photo library review features.
 
+The 1.1 App Store submission does not use a Tasnif account, analytics SDK, advertising SDK, tracking SDK or in-app purchase service.
+
 ## Deletions
 
 Tasnif does not silently delete media. When you choose to delete items, the deletion goes through Apple's Photos APIs and requires explicit confirmation. Deleted items follow the standard Photos / Recently Deleted behavior.
@@ -45,9 +50,11 @@ contact@tasnif.app
 
 # Politique de confidentialite Tasnif
 
-Derniere mise a jour : 2026-05-24
+Derniere mise a jour : 2026-05-26
 
 Tasnif est concu pour vous aider a comprendre ce qui prend de la place dans votre phototheque tout en gardant vos medias sur votre appareil.
+
+Cette politique decrit la soumission App Store Tasnif 1.1. La version 1.1 soumise est gratuite et n'inclut pas de publicite, pas de SDK publicitaire, pas d'achat integre, pas de compte, pas de SDK d'analyse, pas de suivi et pas d'envoi de photos.
 
 ## Resume
 
@@ -57,6 +64,7 @@ Tasnif est concu pour vous aider a comprendre ce qui prend de la place dans votr
 - Tasnif ne vend pas et ne partage pas de donnees utilisateur.
 - Les photos et videos sont traitees sur l'appareil.
 - Les suppressions passent par Photos et demandent une confirmation explicite.
+- La soumission App Store 1.1 n'inclut pas de SDK publicitaire ni de SDK d'analyse.
 
 ## Acces Photos
 
@@ -75,6 +83,8 @@ Tasnif peut enregistrer localement des informations de taille des medias pour ev
 ## Reseau
 
 Tasnif n'a pas besoin d'un serveur pour ses fonctions principales de revue de phototheque.
+
+La soumission App Store 1.1 n'utilise pas de compte Tasnif, de SDK d'analyse, de SDK publicitaire, de SDK de suivi ni de service d'achat integre.
 
 ## Suppressions
 
