@@ -179,7 +179,7 @@
       }
 
       .hero::before {
-        background: rgba(247, 247, 239, 0.76);
+        background: linear-gradient(90deg, rgba(247, 247, 239, 1) 0%, rgba(247, 247, 239, 0.98) 48%, rgba(247, 247, 239, 0.42) 72%, rgba(247, 247, 239, 0.08) 100%);
         content: "";
         inset: 0;
         position: absolute;
@@ -202,36 +202,25 @@
       }
 
       .hero-visual {
+        aspect-ratio: 552 / 1200;
         background: #111;
         border: 1px solid rgba(23, 32, 26, 0.16);
-        border-radius: 30px;
+        border-radius: 32px;
         box-shadow: 0 28px 70px rgba(23, 32, 26, 0.18);
         overflow: hidden;
         position: absolute;
       }
 
       .hero-visual img {
-        aspect-ratio: 1320 / 2868;
-        object-fit: cover;
+        height: 100%;
+        object-fit: contain;
         width: 100%;
       }
 
       .hero-visual.one {
-        right: max(24px, calc((100vw - 1120px) / 2));
-        top: 74px;
-        width: min(24vw, 270px);
-      }
-
-      .hero-visual.two {
-        right: max(300px, calc((100vw - 1120px) / 2 + 260px));
-        top: 160px;
-        width: min(19vw, 220px);
-      }
-
-      .hero-visual.three {
-        bottom: -90px;
-        right: max(120px, calc((100vw - 1120px) / 2 + 100px));
-        width: min(21vw, 240px);
+        right: max(52px, calc((100vw - 1120px) / 2 + 34px));
+        top: 86px;
+        width: min(30vw, 340px);
       }
 
       .eyebrow {
@@ -362,11 +351,12 @@
       .screenshot-row {
         display: grid;
         gap: 18px;
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(220px, 1fr));
         margin-top: 34px;
       }
 
       .phone-shot {
+        aspect-ratio: 552 / 1200;
         background: #111;
         border: 1px solid rgba(23, 32, 26, 0.18);
         border-radius: 28px;
@@ -375,8 +365,8 @@
       }
 
       .phone-shot img {
-        aspect-ratio: 1320 / 2868;
-        object-fit: cover;
+        height: 100%;
+        object-fit: contain;
         width: 100%;
       }
 
@@ -476,19 +466,10 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
-        .hero-visuals {
-          opacity: 0.22;
-        }
-
         .hero-visual.one {
           right: -46px;
           top: 94px;
           width: 260px;
-        }
-
-        .hero-visual.two,
-        .hero-visual.three {
-          display: none;
         }
 
         .footer-inner {
@@ -507,7 +488,10 @@
           flex-direction: column;
         }
 
-        .button,
+        .button {
+          width: 100%;
+        }
+
         .screenshot-row {
           grid-template-columns: 1fr;
         }
@@ -541,12 +525,6 @@
         <div class="hero-visuals" aria-hidden="true">
           <div class="hero-visual one">
             <img src="assets/screenshots/iphone-library.jpg" alt="" width="552" height="1200">
-          </div>
-          <div class="hero-visual two">
-            <img src="assets/screenshots/iphone-large-videos.jpg" alt="" width="552" height="1200">
-          </div>
-          <div class="hero-visual three">
-            <img src="assets/screenshots/iphone-selection.jpg" alt="" width="552" height="1200">
           </div>
         </div>
         <div class="hero-inner">
