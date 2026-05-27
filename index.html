@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tasnif - Libérer de l'espace iPhone avec photos et vidéos</title>
-    <meta name="description" content="Tasnif aide à voir les photos et vidéos qui prennent de la place sur iPhone, en local, sans envoyer vos médias. Disponible sur l'App Store hors UE.">
+    <meta name="description" content="Tasnif aide à voir les photos et vidéos qui prennent de la place sur iPhone, en local, sans envoyer vos médias. Disponible sur l'App Store.">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="theme-color" content="#f7f7ef">
     <meta name="apple-itunes-app" content="app-id=6771797577">
@@ -30,7 +30,7 @@
         "operatingSystem": "iOS 17.0 or later",
         "applicationCategory": "Photo & Video",
         "url": "https://tasnif.app/",
-        "downloadUrl": "https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577",
+        "downloadUrl": "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
         "image": "https://tasnif.app/assets/app-icon.png",
         "description": "Tasnif helps iPhone and iPad users understand what takes space in their Photos library, starting with large videos, screenshots, RAW files and probable duplicates. Media stays on device.",
         "offers": {
@@ -40,11 +40,7 @@
         },
         "softwareVersion": "1.1",
         "sameAs": [
-          "https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577",
-          "https://apps.apple.com/gb/app/tasnif-photo-storage/id6771797577",
-          "https://apps.apple.com/ca/app/tasnif-photo-storage/id6771797577",
-          "https://apps.apple.com/ch/app/tasnif-tri-photos/id6771797577",
-          "https://apps.apple.com/ma/app/tasnif-photo-storage/id6771797577"
+          "https://apps.apple.com/app/tasnif-photo-storage/id6771797577"
         ]
       }
     </script>
@@ -71,10 +67,10 @@
           },
           {
             "@type": "Question",
-            "name": "Tasnif est-il disponible dans l'Union européenne ?",
+            "name": "Tasnif peut-il supprimer des photos sans demander ?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "La version 1.1 est publiée hors Union européenne. Les 27 territoires de l'Union européenne restent en attente du statut de conformité DSA dans App Store Connect."
+              "text": "Non. Tasnif prépare la revue et affiche l'espace connu, mais la suppression passe par Photos et demande une confirmation explicite."
             }
           }
         ]
@@ -408,29 +404,6 @@
         margin-bottom: 0;
       }
 
-      .store-links {
-        display: grid;
-        gap: 12px;
-        grid-template-columns: repeat(5, minmax(0, 1fr));
-        margin-top: 28px;
-      }
-
-      .store-links a {
-        background: var(--white);
-        border: 1px solid rgba(23, 32, 26, 0.16);
-        border-radius: 8px;
-        color: var(--ink);
-        font-weight: 800;
-        padding: 16px;
-        text-align: center;
-        text-decoration: none;
-      }
-
-      .store-links a:hover {
-        border-color: var(--leaf);
-        color: var(--leaf-dark);
-      }
-
       .faq {
         display: grid;
         gap: 16px;
@@ -503,10 +476,6 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
-        .store-links {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
         .hero-visuals {
           opacity: 0.22;
         }
@@ -539,12 +508,7 @@
         }
 
         .button,
-        .store-links a {
-          width: 100%;
-        }
-
-        .screenshot-row,
-        .store-links {
+        .screenshot-row {
           grid-template-columns: 1fr;
         }
 
@@ -593,14 +557,13 @@
             commence par les vidéos volumineuses et garde vos photos et vidéos sur votre iPhone.
           </p>
           <div class="actions">
-            <a class="button primary" href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">
+            <a class="button primary" href="https://apps.apple.com/app/tasnif-photo-storage/id6771797577" rel="noopener">
               Télécharger sur l'App Store
             </a>
-            <a class="button secondary" href="#app-store">Voir les liens par pays</a>
+            <a class="button secondary" href="#proof-title">Voir comment ça marche</a>
           </div>
           <p class="availability-note">
-            Version 1.1 gratuite disponible dans les pays App Store pris en charge hors Union européenne.
-            Les 27 territoires UE restent en attente du statut DSA dans App Store Connect.
+            Version 1.1 gratuite sur l'App Store pour iPhone et iPad.
           </p>
         </div>
       </section>
@@ -681,18 +644,15 @@
       <section class="band white" id="app-store" aria-labelledby="store-title">
         <div class="section">
           <div class="section-head">
-            <h2 id="store-title">Liens App Store hors UE</h2>
+            <h2 id="store-title">Télécharger Tasnif</h2>
             <p class="lead">
-              Tasnif 1.1 est publié hors Union européenne. Ces liens ouvrent la page App Store de l'app
-              dans des boutiques non UE pendant l'attente de conformité DSA pour la France et les autres pays UE.
+              Un seul lien officiel ouvre la page App Store adaptée à votre région.
             </p>
           </div>
-          <div class="store-links" aria-label="Liens App Store régionaux">
-            <a href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">États-Unis</a>
-            <a href="https://apps.apple.com/gb/app/tasnif-photo-storage/id6771797577" rel="noopener">Royaume-Uni</a>
-            <a href="https://apps.apple.com/ca/app/tasnif-photo-storage/id6771797577" rel="noopener">Canada</a>
-            <a href="https://apps.apple.com/ch/app/tasnif-tri-photos/id6771797577" rel="noopener">Suisse</a>
-            <a href="https://apps.apple.com/ma/app/tasnif-photo-storage/id6771797577" rel="noopener">Maroc</a>
+          <div class="actions">
+            <a class="button primary" href="https://apps.apple.com/app/tasnif-photo-storage/id6771797577" rel="noopener">
+              Ouvrir l'App Store
+            </a>
           </div>
         </div>
       </section>
@@ -716,8 +676,8 @@
               <p>Non. Tasnif complète Photos en rendant l'espace occupé plus lisible, puis laisse la suppression passer par le flux standard d'Apple.</p>
             </article>
             <article>
-              <h3>Pourquoi l'UE n'a pas encore le bouton local ?</h3>
-              <p>L'app est prête et publiée hors UE. Les territoires UE attendent la validation du statut DSA dans App Store Connect.</p>
+              <h3>Est-ce que Tasnif supprime automatiquement ?</h3>
+              <p>Non. Tasnif prépare la revue et affiche l'espace connu. La suppression passe ensuite par Photos et demande confirmation.</p>
             </article>
           </div>
         </div>
@@ -733,7 +693,7 @@
             </p>
           </div>
           <div class="actions">
-            <a class="button primary" href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">
+            <a class="button primary" href="https://apps.apple.com/app/tasnif-photo-storage/id6771797577" rel="noopener">
               Download on the App Store
             </a>
             <a class="button secondary" href="support.html">Support</a>

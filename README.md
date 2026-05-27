@@ -6,11 +6,9 @@ Tasnif helps iPhone and iPad users understand what takes space in their Photos l
 
 ## App Store
 
-Tasnif 1.1 is available on the App Store outside the European Union:
+Tasnif 1.1 is available on the App Store:
 
-https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
-
-EU availability is pending the Digital Services Act status in App Store Connect.
+https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 
 ## Public Pages
 
@@ -29,11 +27,9 @@ Tasnif aide a comprendre ce qui prend de la place dans votre phototheque tout en
 
 ## App Store
 
-Tasnif 1.1 est disponible sur l'App Store hors Union europeenne :
+Tasnif 1.1 est disponible sur l'App Store :
 
-https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
-
-La disponibilite UE attend le statut lie a la legislation sur les services numeriques dans App Store Connect.
+https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 
 ## Pages publiques
 

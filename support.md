@@ -6,11 +6,11 @@ Tasnif helps you see what takes space in your Photos library, starting with larg
 
 ## App Store Availability
 
-Tasnif 1.1 is available on the App Store outside the European Union. EU availability is pending the Digital Services Act status in App Store Connect.
+Tasnif 1.1 is available on the App Store.
 
-Download outside the EU:
+Download:
 
-https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
+https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 
 ## Get Help
 
@@ -60,11 +60,11 @@ Tasnif aide a voir ce qui prend de la place dans votre phototheque, en commencan
 
 ## Disponibilite App Store
 
-Tasnif 1.1 est disponible sur l'App Store hors Union europeenne. La disponibilite UE attend le statut lie a la legislation sur les services numeriques dans App Store Connect.
+Tasnif 1.1 est disponible sur l'App Store.
 
-Telechargement hors UE :
+Telechargement :
 
-https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
+https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 
 ## Obtenir de l'aide
 
