@@ -1,14 +1,16 @@
 # Tasnif Support
 
-Last updated: 2026-05-26
+Last updated: 2026-05-27
 
 Tasnif helps you see what takes space in your Photos library, starting with large videos and other media that can quickly fill an iPhone.
 
-## App Store Status
+## App Store Availability
 
-Tasnif 1.1 has been submitted to Apple for App Review.
+Tasnif 1.1 is available on the App Store outside the European Union. EU availability is pending the Digital Services Act status in App Store Connect.
 
-The submitted 1.1 release is free and does not include ads, ad SDKs, in-app purchases, accounts, analytics SDKs, tracking, or photo uploads.
+Download outside the EU:
+
+https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
 
 ## Get Help
 
@@ -52,15 +54,17 @@ Tasnif respects limited Photos access. It only shows and checks the photos and v
 
 # Assistance Tasnif
 
-Derniere mise a jour : 2026-05-26
+Derniere mise a jour : 2026-05-27
 
 Tasnif aide a voir ce qui prend de la place dans votre phototheque, en commencant par les videos volumineuses et les autres medias qui peuvent vite remplir un iPhone.
 
-## Statut App Store
+## Disponibilite App Store
 
-Tasnif 1.1 a ete soumis a Apple pour validation App Review.
+Tasnif 1.1 est disponible sur l'App Store hors Union europeenne. La disponibilite UE attend le statut lie a la legislation sur les services numeriques dans App Store Connect.
 
-La version 1.1 soumise est gratuite et n'inclut pas de publicite, pas de SDK publicitaire, pas d'achat integre, pas de compte, pas de SDK d'analyse, pas de suivi et pas d'envoi de photos.
+Telechargement hors UE :
+
+https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
 
 ## Obtenir de l'aide
 

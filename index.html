@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tasnif - Libérer de l'espace iPhone avec photos et vidéos</title>
+    <meta name="description" content="Tasnif aide à voir les photos et vidéos qui prennent de la place sur iPhone, en local, sans envoyer vos médias. Disponible sur l'App Store hors UE.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="theme-color" content="#f7f7ef">
+    <meta name="apple-itunes-app" content="app-id=6771797577">
+    <link rel="canonical" href="https://tasnif.app/">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="icon" href="assets/app-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Tasnif">
+    <meta property="og:title" content="Tasnif - Libérer de l'espace iPhone avec photos et vidéos">
+    <meta property="og:description" content="Voyez ce qui remplit votre photothèque, commencez par les vidéos volumineuses et gardez vos médias sur votre iPhone.">
+    <meta property="og:url" content="https://tasnif.app/">
+    <meta property="og:image" content="https://tasnif.app/assets/screenshots/iphone-library.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tasnif - Photo storage for iPhone">
+    <meta name="twitter:description" content="Find large videos, screenshots and photo-library storage without uploading your media.">
+    <meta name="twitter:image" content="https://tasnif.app/assets/screenshots/iphone-library.jpg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Tasnif: Photo Storage",
+        "alternateName": "Tasnif: Tri Photos",
+        "operatingSystem": "iOS 17.0 or later",
+        "applicationCategory": "Photo & Video",
+        "url": "https://tasnif.app/",
+        "downloadUrl": "https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577",
+        "image": "https://tasnif.app/assets/app-icon.png",
+        "description": "Tasnif helps iPhone and iPad users understand what takes space in their Photos library, starting with large videos, screenshots, RAW files and probable duplicates. Media stays on device.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "softwareVersion": "1.1",
+        "sameAs": [
+          "https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577",
+          "https://apps.apple.com/gb/app/tasnif-photo-storage/id6771797577",
+          "https://apps.apple.com/ca/app/tasnif-photo-storage/id6771797577",
+          "https://apps.apple.com/ch/app/tasnif-tri-photos/id6771797577",
+          "https://apps.apple.com/ma/app/tasnif-photo-storage/id6771797577"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Comment libérer de l'espace iPhone avec mes photos et vidéos ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tasnif affiche l'espace occupé par la photothèque, les vidéos volumineuses, les captures, les RAW et les doublons probables pour aider à examiner les médias avant toute suppression."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tasnif envoie-t-il mes photos sur un serveur ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. Tasnif traite les photos et vidéos sur l'iPhone ou l'iPad. Les médias ne sont pas téléversés ni collectés."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tasnif est-il disponible dans l'Union européenne ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La version 1.1 est publiée hors Union européenne. Les 27 territoires de l'Union européenne restent en attente du statut de conformité DSA dans App Store Connect."
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f7f7ef;
+        --ink: #17201a;
+        --muted: #536056;
+        --line: #d9ded2;
+        --leaf: #2f6f4e;
+        --leaf-dark: #1f5138;
+        --sun: #f2b950;
+        --coral: #d95f45;
+        --sky: #dcebf4;
+        --white: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      a {
+        color: var(--leaf-dark);
+        text-underline-offset: 0.18em;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(247, 247, 239, 0.94);
+        border-bottom: 1px solid var(--line);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1120px;
+        padding: 14px 22px;
+      }
+
+      .brand {
+        align-items: center;
+        color: var(--ink);
+        display: inline-flex;
+        font-weight: 800;
+        gap: 10px;
+        text-decoration: none;
+      }
+
+      .brand img {
+        border-radius: 12px;
+        height: 36px;
+        width: 36px;
+      }
+
+      .nav-links {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: flex-end;
+      }
+
+      .nav-links a {
+        color: var(--muted);
+        font-size: 0.95rem;
+        font-weight: 650;
+        text-decoration: none;
+      }
+
+      .nav-links a:hover {
+        color: var(--ink);
+      }
+
+      .hero {
+        background: var(--paper);
+        overflow: hidden;
+        isolation: isolate;
+        min-height: 82svh;
+        position: relative;
+      }
+
+      .hero::before {
+        background: rgba(247, 247, 239, 0.76);
+        content: "";
+        inset: 0;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .hero-inner {
+        margin: 0 auto;
+        max-width: 1120px;
+        padding: clamp(76px, 12vw, 132px) 22px 72px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero-visuals {
+        inset: 0;
+        pointer-events: none;
+        position: absolute;
+        z-index: 0;
+      }
+
+      .hero-visual {
+        background: #111;
+        border: 1px solid rgba(23, 32, 26, 0.16);
+        border-radius: 30px;
+        box-shadow: 0 28px 70px rgba(23, 32, 26, 0.18);
+        overflow: hidden;
+        position: absolute;
+      }
+
+      .hero-visual img {
+        aspect-ratio: 1320 / 2868;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .hero-visual.one {
+        right: max(24px, calc((100vw - 1120px) / 2));
+        top: 74px;
+        width: min(24vw, 270px);
+      }
+
+      .hero-visual.two {
+        right: max(300px, calc((100vw - 1120px) / 2 + 260px));
+        top: 160px;
+        width: min(19vw, 220px);
+      }
+
+      .hero-visual.three {
+        bottom: -90px;
+        right: max(120px, calc((100vw - 1120px) / 2 + 100px));
+        width: min(21vw, 240px);
+      }
+
+      .eyebrow {
+        color: var(--leaf-dark);
+        font-size: 0.88rem;
+        font-weight: 800;
+        letter-spacing: 0;
+        margin: 0 0 12px;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        font-size: clamp(3.7rem, 12vw, 7.5rem);
+        letter-spacing: 0;
+        line-height: 0.9;
+        margin-bottom: 22px;
+      }
+
+      .hero-copy {
+        font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+        max-width: 550px;
+      }
+
+      .actions {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .button {
+        align-items: center;
+        border: 2px solid var(--ink);
+        border-radius: 999px;
+        display: inline-flex;
+        font-weight: 800;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 20px;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .button.secondary {
+        background: rgba(255, 255, 255, 0.5);
+        color: var(--ink);
+      }
+
+      .availability-note {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-top: 16px;
+        max-width: 560px;
+      }
+
+      .band {
+        border-top: 1px solid var(--line);
+      }
+
+      .band.white {
+        background: var(--white);
+      }
+
+      .band.sky {
+        background: var(--sky);
+      }
+
+      .section {
+        margin: 0 auto;
+        max-width: 1120px;
+        padding: clamp(54px, 8vw, 86px) 22px;
+      }
+
+      .section-head {
+        max-width: 760px;
+      }
+
+      h2 {
+        font-size: clamp(2rem, 5vw, 3.4rem);
+        letter-spacing: 0;
+        line-height: 1;
+        margin-bottom: 18px;
+      }
+
+      .lead {
+        color: var(--muted);
+        font-size: 1.12rem;
+      }
+
+      .proof-grid {
+        display: grid;
+        gap: 14px;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: 34px;
+      }
+
+      .proof-item {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .proof-item strong {
+        display: block;
+        font-size: 1.05rem;
+        margin-bottom: 4px;
+      }
+
+      .proof-item span {
+        color: var(--muted);
+        display: block;
+        font-size: 0.95rem;
+      }
+
+      .screenshot-row {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        margin-top: 34px;
+      }
+
+      .phone-shot {
+        background: #111;
+        border: 1px solid rgba(23, 32, 26, 0.18);
+        border-radius: 28px;
+        box-shadow: 0 18px 42px rgba(23, 32, 26, 0.16);
+        overflow: hidden;
+      }
+
+      .phone-shot img {
+        aspect-ratio: 1320 / 2868;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .feature-grid {
+        display: grid;
+        gap: 18px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 34px;
+      }
+
+      .feature {
+        background: var(--white);
+        border: 1px solid rgba(23, 32, 26, 0.12);
+        border-radius: 8px;
+        padding: 24px;
+      }
+
+      .feature h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .feature p {
+        color: var(--muted);
+        margin-bottom: 0;
+      }
+
+      .store-links {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        margin-top: 28px;
+      }
+
+      .store-links a {
+        background: var(--white);
+        border: 1px solid rgba(23, 32, 26, 0.16);
+        border-radius: 8px;
+        color: var(--ink);
+        font-weight: 800;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .store-links a:hover {
+        border-color: var(--leaf);
+        color: var(--leaf-dark);
+      }
+
+      .faq {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        margin-top: 28px;
+      }
+
+      .faq article {
+        border-top: 4px solid var(--sun);
+        padding-top: 16px;
+      }
+
+      .faq article:nth-child(2) {
+        border-color: var(--leaf);
+      }
+
+      .faq article:nth-child(3) {
+        border-color: var(--coral);
+      }
+
+      .faq h3 {
+        font-size: 1.08rem;
+        margin-bottom: 8px;
+      }
+
+      .faq p {
+        color: var(--muted);
+        margin-bottom: 0;
+      }
+
+      .footer {
+        background: var(--ink);
+        color: rgba(255, 255, 255, 0.76);
+        padding: 34px 22px;
+      }
+
+      .footer-inner {
+        align-items: center;
+        display: flex;
+        gap: 18px;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1120px;
+      }
+
+      .footer a {
+        color: var(--white);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      @media (max-width: 860px) {
+        .nav {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .proof-grid,
+        .feature-grid,
+        .faq {
+          grid-template-columns: 1fr;
+        }
+
+        .screenshot-row {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .store-links {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .hero-visuals {
+          opacity: 0.22;
+        }
+
+        .hero-visual.one {
+          right: -46px;
+          top: 94px;
+          width: 260px;
+        }
+
+        .hero-visual.two,
+        .hero-visual.three {
+          display: none;
+        }
+
+        .footer-inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .hero {
+          min-height: 86svh;
+        }
+
+        .actions {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .button,
+        .store-links a {
+          width: 100%;
+        }
+
+        .screenshot-row,
+        .store-links {
+          grid-template-columns: 1fr;
+        }
+
+        .phone-shot {
+          margin: 0 auto;
+          max-width: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="https://tasnif.app/" aria-label="Accueil Tasnif">
+          <img src="assets/app-icon.png" alt="" width="36" height="36">
+          <span>Tasnif</span>
+        </a>
+        <div class="nav-links">
+          <a href="#app-store">App Store</a>
+          <a href="#confidentialite">Confidentialité</a>
+          <a href="#english">English</a>
+          <a href="support.html">Assistance</a>
+          <a href="privacy-policy.html">Confidentialité</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-visuals" aria-hidden="true">
+          <div class="hero-visual one">
+            <img src="assets/screenshots/iphone-library.jpg" alt="" width="552" height="1200">
+          </div>
+          <div class="hero-visual two">
+            <img src="assets/screenshots/iphone-large-videos.jpg" alt="" width="552" height="1200">
+          </div>
+          <div class="hero-visual three">
+            <img src="assets/screenshots/iphone-selection.jpg" alt="" width="552" height="1200">
+          </div>
+        </div>
+        <div class="hero-inner">
+          <p class="eyebrow">Photo storage cleanup for iPhone</p>
+          <h1 id="hero-title">Tasnif</h1>
+          <p class="hero-copy">
+            Voyez ce qui remplit votre photothèque avant d'ajouter du stockage. Tasnif affiche l'espace occupé,
+            commence par les vidéos volumineuses et garde vos photos et vidéos sur votre iPhone.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">
+              Télécharger sur l'App Store
+            </a>
+            <a class="button secondary" href="#app-store">Voir les liens par pays</a>
+          </div>
+          <p class="availability-note">
+            Version 1.1 gratuite disponible dans les pays App Store pris en charge hors Union européenne.
+            Les 27 territoires UE restent en attente du statut DSA dans App Store Connect.
+          </p>
+        </div>
+      </section>
+
+      <section class="band white" aria-labelledby="proof-title">
+        <div class="section">
+          <div class="section-head">
+            <h2 id="proof-title">Comprendre l'espace photo, sans deviner</h2>
+            <p class="lead">
+              Tasnif rend visible le signal qui manque souvent dans Photos et Réglages iPhone :
+              la taille des médias, l'espace d'une sélection, et les endroits où commencer calmement.
+            </p>
+          </div>
+          <div class="proof-grid" aria-label="Points forts de Tasnif">
+            <div class="proof-item">
+              <strong>Vidéos volumineuses</strong>
+              <span>Les plus gros gains apparaissent d'abord.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Captures et RAW</strong>
+              <span>Des collections concrètes, faciles à examiner.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Doublons probables</strong>
+              <span>Des médias à vérifier, pas une suppression automatique.</span>
+            </div>
+            <div class="proof-item">
+              <strong>Confirmation Photos</strong>
+              <span>Rien n'est supprimé sans votre accord explicite.</span>
+            </div>
+          </div>
+          <div class="screenshot-row" aria-label="Captures d'écran de Tasnif">
+            <figure class="phone-shot">
+              <img src="assets/screenshots/iphone-library.jpg" alt="Tasnif affiche l'espace de la photothèque et les premières actions." loading="lazy" width="552" height="1200">
+            </figure>
+            <figure class="phone-shot">
+              <img src="assets/screenshots/iphone-storage-advisor.jpg" alt="Assistant stockage Tasnif avec actions de revue." loading="lazy" width="552" height="1200">
+            </figure>
+            <figure class="phone-shot">
+              <img src="assets/screenshots/iphone-large-videos.jpg" alt="Liste de vidéos volumineuses triées par taille." loading="lazy" width="552" height="1200">
+            </figure>
+            <figure class="phone-shot">
+              <img src="assets/screenshots/iphone-probable-duplicates.jpg" alt="Doublons probables à examiner dans Tasnif." loading="lazy" width="552" height="1200">
+            </figure>
+            <figure class="phone-shot">
+              <img src="assets/screenshots/iphone-selection.jpg" alt="Sélection Tasnif montrant l'espace connu avant suppression." loading="lazy" width="552" height="1200">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="band sky" id="confidentialite" aria-labelledby="privacy-title">
+        <div class="section">
+          <div class="section-head">
+            <h2 id="privacy-title">Local, privé, progressif</h2>
+            <p class="lead">
+              Tasnif est conçu pour les photothèques saturées : il aide à voir ce qui prend vraiment de la place,
+              sans compte, sans envoi de médias et sans suppression silencieuse.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature">
+              <h3>Vos médias restent sur l'appareil</h3>
+              <p>Les photos, vidéos et métadonnées de photothèque ne sont pas téléversées vers un serveur Tasnif.</p>
+            </article>
+            <article class="feature">
+              <h3>La revue reste sous votre contrôle</h3>
+              <p>L'app prépare les vues utiles. La suppression passe par Photos et demande confirmation.</p>
+            </article>
+            <article class="feature">
+              <h3>L'analyse avance sans bloquer</h3>
+              <p>Les tailles se vérifient progressivement pour garder l'iPhone utilisable pendant la revue.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band white" id="app-store" aria-labelledby="store-title">
+        <div class="section">
+          <div class="section-head">
+            <h2 id="store-title">Liens App Store hors UE</h2>
+            <p class="lead">
+              Tasnif 1.1 est publié hors Union européenne. Ces liens ouvrent la page App Store de l'app
+              dans des boutiques non UE pendant l'attente de conformité DSA pour la France et les autres pays UE.
+            </p>
+          </div>
+          <div class="store-links" aria-label="Liens App Store régionaux">
+            <a href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">États-Unis</a>
+            <a href="https://apps.apple.com/gb/app/tasnif-photo-storage/id6771797577" rel="noopener">Royaume-Uni</a>
+            <a href="https://apps.apple.com/ca/app/tasnif-photo-storage/id6771797577" rel="noopener">Canada</a>
+            <a href="https://apps.apple.com/ch/app/tasnif-tri-photos/id6771797577" rel="noopener">Suisse</a>
+            <a href="https://apps.apple.com/ma/app/tasnif-photo-storage/id6771797577" rel="noopener">Maroc</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band" aria-labelledby="faq-title">
+        <div class="section">
+          <div class="section-head">
+            <h2 id="faq-title">Questions fréquentes</h2>
+            <p class="lead">
+              Tasnif répond aux recherches comme libérer de l'espace iPhone photos, voir la taille des vidéos iPhone,
+              nettoyer une photothèque iPhone ou trouver les vidéos volumineuses.
+            </p>
+          </div>
+          <div class="faq">
+            <article>
+              <h3>Comment libérer de l'espace iPhone avec mes photos ?</h3>
+              <p>Commencez par les médias qui occupent le plus d'espace : vidéos longues, enregistrements d'écran, RAW, captures et doublons probables.</p>
+            </article>
+            <article>
+              <h3>Est-ce que Tasnif remplace Photos ?</h3>
+              <p>Non. Tasnif complète Photos en rendant l'espace occupé plus lisible, puis laisse la suppression passer par le flux standard d'Apple.</p>
+            </article>
+            <article>
+              <h3>Pourquoi l'UE n'a pas encore le bouton local ?</h3>
+              <p>L'app est prête et publiée hors UE. Les territoires UE attendent la validation du statut DSA dans App Store Connect.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band white" id="english" aria-labelledby="english-title">
+        <div class="section">
+          <div class="section-head">
+            <h2 id="english-title">Photo storage cleanup for iPhone</h2>
+            <p class="lead">
+              Tasnif helps you understand what takes space in your Photos library. Find large videos,
+              screenshots, RAW files and probable duplicates while keeping your photos and videos on device.
+            </p>
+          </div>
+          <div class="actions">
+            <a class="button primary" href="https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577" rel="noopener">
+              Download on the App Store
+            </a>
+            <a class="button secondary" href="support.html">Support</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© 2026 Tasnif. Photos and videos stay on your device.</span>
+        <div class="footer-links">
+          <a href="support.html">Support</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,31 +1,43 @@
 # Tasnif
 
-Tasnif helps you understand what takes space in your Photos library while keeping your photos and videos on your device.
+Public pages for Tasnif.
 
-## App Store Status
+Tasnif helps iPhone and iPad users understand what takes space in their Photos library while keeping photos and videos on device.
 
-Tasnif 1.1 has been submitted to Apple for App Review.
+## App Store
 
-This first App Store release is free. It does not include ads, ad SDKs, in-app purchases, accounts, analytics SDKs, tracking, or photo uploads.
+Tasnif 1.1 is available on the App Store outside the European Union:
+
+https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
+
+EU availability is pending the Digital Services Act status in App Store Connect.
 
 ## Public Pages
 
-- [Support](support.html)
-- [Privacy Policy](privacy-policy.html)
+- Home: https://tasnif.app/
+- Support: https://tasnif.app/support.html
+- Privacy Policy: https://tasnif.app/privacy-policy.html
+- Sitemap: https://tasnif.app/sitemap.xml
 
 ---
 
 # Tasnif
 
+Pages publiques de Tasnif.
+
 Tasnif aide a comprendre ce qui prend de la place dans votre phototheque tout en gardant vos photos et videos sur votre appareil.
 
-## Statut App Store
+## App Store
 
-Tasnif 1.1 a ete soumis a Apple pour validation App Review.
+Tasnif 1.1 est disponible sur l'App Store hors Union europeenne :
 
-Cette premiere version App Store est gratuite. Elle n'inclut pas de publicite, pas de SDK publicitaire, pas d'achat integre, pas de compte, pas de SDK d'analyse, pas de suivi et pas d'envoi de photos.
+https://apps.apple.com/us/app/tasnif-photo-storage/id6771797577
+
+La disponibilite UE attend le statut lie a la legislation sur les services numeriques dans App Store Connect.
 
 ## Pages publiques
 
-- [Assistance](support.html)
-- [Politique de confidentialite](privacy-policy.html)
+- Accueil : https://tasnif.app/
+- Assistance : https://tasnif.app/support.html
+- Politique de confidentialite : https://tasnif.app/privacy-policy.html
+- Sitemap : https://tasnif.app/sitemap.xml
