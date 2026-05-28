@@ -17,6 +17,7 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Press kit: https://tasnif.app/press-kit.html
 - Support: https://tasnif.app/support.html
 - Privacy Policy: https://tasnif.app/privacy-policy.html
+- App ads: https://tasnif.app/app-ads.txt
 - Sitemap: https://tasnif.app/sitemap.xml
 
 ---
@@ -40,4 +41,5 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Press kit : https://tasnif.app/press-kit.html
 - Assistance : https://tasnif.app/support.html
 - Politique de confidentialite : https://tasnif.app/privacy-policy.html
+- App ads : https://tasnif.app/app-ads.txt
 - Sitemap : https://tasnif.app/sitemap.xml
