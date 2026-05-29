@@ -91,6 +91,13 @@ img {
   color: var(--ink);
 }
 
+.locale-link {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink) !important;
+  padding: 5px 10px;
+}
+
 .hero {
   background: var(--white);
   border-bottom: 1px solid var(--line);

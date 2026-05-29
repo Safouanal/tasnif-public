@@ -2,3 +2,15 @@ title: Tasnif
 description: Tasnif helps iPhone users find large photos and videos, understand photo-library storage, and keep media on device.
 url: https://tasnif.app
 baseurl: ""
+exclude:
+  - admob-setup.md
+  - appstore-1.2-storekit-submission.md
+  - appstore-compliance-1.2.md
+  - architecture-sprint.md
+  - dsa-eu-readiness.md
+  - iap-appstoreconnect-checklist.md
+  - performance-audit.md
+  - privacy-policy-1.2-draft.md
+  - privacy-policy-1.2-storekit-only.md
+  - seo-launch-checklist.md
+  - storekit-setup.md

@@ -1,4 +1,35 @@
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: Applebot
+Allow: /
+Disallow: /admob-setup.html
+Disallow: /appstore-*.html
+Disallow: /architecture-sprint.html
+Disallow: /dsa-eu-readiness.html
+Disallow: /iap-appstoreconnect-checklist.html
+Disallow: /performance-audit.html
+Disallow: /privacy-policy-1.2-*.html
+Disallow: /seo-launch-checklist.html
+Disallow: /storekit-setup.html
+
 User-agent: *
 Allow: /
+Disallow: /admob-setup.html
+Disallow: /appstore-*.html
+Disallow: /architecture-sprint.html
+Disallow: /dsa-eu-readiness.html
+Disallow: /iap-appstoreconnect-checklist.html
+Disallow: /performance-audit.html
+Disallow: /privacy-policy-1.2-*.html
+Disallow: /seo-launch-checklist.html
+Disallow: /storekit-setup.html
 
 Sitemap: https://tasnif.app/sitemap.xml
