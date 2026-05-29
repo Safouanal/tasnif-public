@@ -134,8 +134,9 @@ img {
 }
 
 .home-page .home-hero .phone {
-  max-height: min(58svh, 560px);
-  width: min(100%, 310px);
+  height: min(58svh, 560px);
+  max-height: none;
+  width: calc(min(58svh, 560px) * 0.46);
 }
 
 .availability-note {
@@ -219,14 +220,14 @@ h3 {
 
 .phone {
   aspect-ratio: 552 / 1200;
-  background: #111;
+  background: #f3f2f8;
   border: 1px solid rgba(23, 32, 26, 0.16);
   border-radius: 34px;
   box-shadow: 0 22px 58px rgba(23, 32, 26, 0.15);
+  height: min(68svh, 640px);
   justify-self: end;
-  max-height: min(68svh, 640px);
   overflow: hidden;
-  width: min(100%, 340px);
+  width: calc(min(68svh, 640px) * 0.46);
 }
 
 .phone img {
@@ -393,12 +394,14 @@ h3 {
   }
 
   .phone {
+    height: auto;
     justify-self: center;
     max-height: none;
     width: min(86vw, 340px);
   }
 
   .home-page .home-hero .phone {
+    height: auto;
     max-height: none;
     width: min(78vw, 300px);
   }
