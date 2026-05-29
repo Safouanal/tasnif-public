@@ -10,6 +10,9 @@ User-agent: Google-Extended
 User-agent: Bingbot
 User-agent: Applebot
 Allow: /
+Allow: /ai.html
+Allow: /en/ai.html
+Allow: /llms.txt
 Disallow: /admob-setup.html
 Disallow: /appstore-*.html
 Disallow: /architecture-sprint.html
@@ -22,6 +25,8 @@ Disallow: /storekit-setup.html
 
 User-agent: *
 Allow: /
+Disallow: /ai.html
+Disallow: /en/ai.html
 Disallow: /admob-setup.html
 Disallow: /appstore-*.html
 Disallow: /architecture-sprint.html
