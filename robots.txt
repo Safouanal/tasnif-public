@@ -1,7 +1,9 @@
 User-agent: Google-adstxt
+Allow: /app-ads.txt
 Disallow:
 
 User-agent: Mediapartners-Google
+Allow: /app-ads.txt
 Disallow:
 
 User-agent: OAI-SearchBot
