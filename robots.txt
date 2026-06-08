@@ -33,8 +33,6 @@ Disallow: /storekit-setup.html
 
 User-agent: *
 Allow: /
-Disallow: /ai.html
-Disallow: /en/ai.html
 Disallow: /admob-setup.html
 Disallow: /appstore-*.html
 Disallow: /architecture-sprint.html
