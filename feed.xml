@@ -11,6 +11,14 @@
     <uri>https://tasnif.app/</uri>
   </author>
   <entry>
+    <id>https://tasnif.app/guides.html</id>
+    <title>Guides Tasnif pour libérer de l'espace iPhone</title>
+    <link href="https://tasnif.app/guides.html" rel="alternate" type="text/html" hreflang="fr-FR"/>
+    <link href="https://tasnif.app/en/guides.html" rel="alternate" type="text/html" hreflang="en-US"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <summary>Tous les guides Tasnif pour comprendre le stockage Photos, les vidéos volumineuses, les captures, les RAW et la confidentialité.</summary>
+  </entry>
+  <entry>
     <id>https://tasnif.app/faq.html</id>
     <title>FAQ Tasnif : photos, stockage, confidentialité</title>
     <link href="https://tasnif.app/faq.html" rel="alternate" type="text/html" hreflang="fr-FR"/>
