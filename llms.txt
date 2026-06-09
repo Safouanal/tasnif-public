@@ -56,6 +56,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - iPhone storage full because of Photos: https://tasnif.app/iphone-stockage-plein-photos.html
 - Before adding iPhone storage for Photos: https://tasnif.app/avant-ajouter-stockage-iphone-photos.html
 - Deleted photos but iPhone storage is not free: https://tasnif.app/photos-supprimees-iphone-espace-non-libere.html
+- iCloud Photos and iPhone storage: https://tasnif.app/photos-icloud-stockage-iphone.html
 - Which photos take space on iPhone: https://tasnif.app/photos-prennent-place-iphone.html
 - Free up iPhone photo storage: https://tasnif.app/liberer-espace-iphone-photos.html
 - Large videos on iPhone: https://tasnif.app/videos-volumineuses-iphone.html
@@ -70,6 +71,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - English all guides: https://tasnif.app/en/guides.html
 - English before adding iPhone storage: https://tasnif.app/en/before-adding-iphone-storage-photos.html
 - English deleted photos but storage is not free: https://tasnif.app/en/deleted-iphone-photos-storage-not-free.html
+- English iCloud Photos and iPhone storage: https://tasnif.app/en/icloud-photos-iphone-storage.html
 - English photos taking most space: https://tasnif.app/en/photos-taking-most-space-iphone.html
 - English photo storage cleanup: https://tasnif.app/en/photo-storage-cleanup-iphone.html
 - English large videos guide: https://tasnif.app/en/large-videos-iphone.html
