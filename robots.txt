@@ -24,6 +24,7 @@ Allow: /llms.txt
 Disallow: /admob-setup.html
 Disallow: /appstore-*.html
 Disallow: /architecture-sprint.html
+Disallow: /assets/social/*.html
 Disallow: /dsa-eu-readiness.html
 Disallow: /iap-appstoreconnect-checklist.html
 Disallow: /performance-audit.html
@@ -36,6 +37,7 @@ Allow: /
 Disallow: /admob-setup.html
 Disallow: /appstore-*.html
 Disallow: /architecture-sprint.html
+Disallow: /assets/social/*.html
 Disallow: /dsa-eu-readiness.html
 Disallow: /iap-appstoreconnect-checklist.html
 Disallow: /performance-audit.html
