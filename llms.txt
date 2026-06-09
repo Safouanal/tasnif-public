@@ -69,6 +69,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - RAW photos and iPhone storage: https://tasnif.app/photos-raw-iphone-stockage.html
 - See iPhone video size: https://tasnif.app/voir-taille-video-iphone.html
 - Sort iPhone videos by size: https://tasnif.app/trier-videos-iphone-par-taille.html
+- Delete large iPhone videos safely: https://tasnif.app/supprimer-grosses-videos-iphone.html
 - See iPhone photo size: https://tasnif.app/voir-taille-photo-iphone.html
 - Sort iPhone photos by size: https://tasnif.app/trier-photos-iphone-par-taille.html
 - Live Photos and iPhone storage: https://tasnif.app/live-photos-iphone-stockage.html
@@ -94,6 +95,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - English private photo cleaner: https://tasnif.app/en/private-iphone-photo-cleaner.html
 - English iPhone video size guide: https://tasnif.app/en/iphone-video-size.html
 - English sort iPhone videos by size: https://tasnif.app/en/sort-iphone-videos-by-size.html
+- English delete large iPhone videos safely: https://tasnif.app/en/delete-large-videos-iphone.html
 - English iPhone photo size guide: https://tasnif.app/en/iphone-photo-size.html
 - English sort iPhone photos by size: https://tasnif.app/en/sort-iphone-photos-by-size.html
 - English Live Photos and iPhone storage: https://tasnif.app/en/live-photos-iphone-storage.html
