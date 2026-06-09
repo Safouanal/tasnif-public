@@ -15,6 +15,7 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Home: https://tasnif.app/
 - English home: https://tasnif.app/en/
 - Updates feed: https://tasnif.app/feed.xml
+- Private photo cleaner: https://tasnif.app/en/private-iphone-photo-cleaner.html
 - Which photos take the most space on iPhone: https://tasnif.app/en/photos-taking-most-space-iphone.html
 - iPhone storage full because of Photos: https://tasnif.app/en/iphone-storage-full-photos.html
 - Photo storage cleanup: https://tasnif.app/en/photo-storage-cleanup-iphone.html
@@ -46,6 +47,7 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Accueil : https://tasnif.app/
 - Accueil anglais : https://tasnif.app/en/
 - Flux des guides : https://tasnif.app/feed.xml
+- Tri photos privé : https://tasnif.app/application-tri-photos-iphone-confidentialite.html
 - Photos qui prennent de la place : https://tasnif.app/photos-prennent-place-iphone.html
 - iPhone stockage plein : https://tasnif.app/iphone-stockage-plein-photos.html
 - Liberer de l'espace iPhone : https://tasnif.app/liberer-espace-iphone-photos.html
