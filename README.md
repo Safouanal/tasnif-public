@@ -18,6 +18,7 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Private photo cleaner: https://tasnif.app/en/private-iphone-photo-cleaner.html
 - Which photos take the most space on iPhone: https://tasnif.app/en/photos-taking-most-space-iphone.html
 - iPhone storage full because of Photos: https://tasnif.app/en/iphone-storage-full-photos.html
+- Before adding iPhone storage: https://tasnif.app/en/before-adding-iphone-storage-photos.html
 - Photo storage cleanup: https://tasnif.app/en/photo-storage-cleanup-iphone.html
 - Large videos: https://tasnif.app/en/large-videos-iphone.html
 - Screen recordings: https://tasnif.app/en/screen-recordings-iphone-storage.html
@@ -52,6 +53,7 @@ https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 - Tri photos privé : https://tasnif.app/application-tri-photos-iphone-confidentialite.html
 - Photos qui prennent de la place : https://tasnif.app/photos-prennent-place-iphone.html
 - iPhone stockage plein : https://tasnif.app/iphone-stockage-plein-photos.html
+- Avant d'ajouter du stockage : https://tasnif.app/avant-ajouter-stockage-iphone-photos.html
 - Liberer de l'espace iPhone : https://tasnif.app/liberer-espace-iphone-photos.html
 - Videos volumineuses : https://tasnif.app/videos-volumineuses-iphone.html
 - Enregistrements d'ecran : https://tasnif.app/enregistrements-ecran-iphone-espace.html
