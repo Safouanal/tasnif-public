@@ -123,6 +123,7 @@ img {
 
 .hero-copy {
   max-width: 660px;
+  min-width: 0;
 }
 
 .home-page .home-hero .hero-inner {
@@ -203,8 +204,11 @@ h3 {
   display: inline-flex;
   font-weight: 820;
   justify-content: center;
+  line-height: 1.15;
+  max-width: 100%;
   min-height: 48px;
   padding: 0 20px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -391,6 +395,11 @@ h3 {
   .home-page .home-hero .hero-inner {
     grid-template-columns: 1fr;
     padding-top: 42px;
+  }
+
+  .hero-copy {
+    max-width: calc(100vw - 44px);
+    width: 100%;
   }
 
   .phone {
