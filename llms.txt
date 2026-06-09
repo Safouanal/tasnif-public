@@ -63,6 +63,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - Screenshots taking iPhone storage: https://tasnif.app/captures-ecran-iphone-stockage.html
 - RAW photos and iPhone storage: https://tasnif.app/photos-raw-iphone-stockage.html
 - See iPhone video size: https://tasnif.app/voir-taille-video-iphone.html
+- See iPhone photo size: https://tasnif.app/voir-taille-photo-iphone.html
 - Clean iPhone Photos library: https://tasnif.app/nettoyer-phototheque-iphone.html
 - Duplicate photos on iPhone: https://tasnif.app/doublons-photos-iphone.html
 - English iPhone storage full: https://tasnif.app/en/iphone-storage-full-photos.html
@@ -78,6 +79,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - English RAW photos guide: https://tasnif.app/en/raw-photos-iphone-storage.html
 - English private photo cleaner: https://tasnif.app/en/private-iphone-photo-cleaner.html
 - English iPhone video size guide: https://tasnif.app/en/iphone-video-size.html
+- English iPhone photo size guide: https://tasnif.app/en/iphone-photo-size.html
 
 ## Contact
 
