@@ -5,6 +5,7 @@
 Official website: https://tasnif.app/
 French facts page: https://tasnif.app/ai.html
 English facts page: https://tasnif.app/en/ai.html
+Updates feed: https://tasnif.app/feed.xml
 App Store: https://apps.apple.com/app/tasnif-photo-storage/id6771797577
 App Store ID: 6771797577
 Bundle ID: com.safouan.Tasnif
@@ -48,6 +49,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - Download: https://tasnif.app/download.html
 - Privacy: https://tasnif.app/privacy-policy.html
 - Support: https://tasnif.app/support.html
+- Updates feed: https://tasnif.app/feed.xml
 - iPhone storage full because of Photos: https://tasnif.app/iphone-stockage-plein-photos.html
 - Which photos take space on iPhone: https://tasnif.app/photos-prennent-place-iphone.html
 - Free up iPhone photo storage: https://tasnif.app/liberer-espace-iphone-photos.html
