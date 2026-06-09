@@ -56,6 +56,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tasnif.app/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/faq.html"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://tasnif.app/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/faq.html"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://tasnif.app/llms.txt</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
