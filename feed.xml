@@ -11,6 +11,22 @@
     <uri>https://tasnif.app/</uri>
   </author>
   <entry>
+    <id>https://tasnif.app/captures-ecran-iphone-stockage.html</id>
+    <title>Captures d'écran iPhone qui prennent de la place</title>
+    <link href="https://tasnif.app/captures-ecran-iphone-stockage.html" rel="alternate" type="text/html" hreflang="fr-FR"/>
+    <link href="https://tasnif.app/en/screenshots-iphone-storage.html" rel="alternate" type="text/html" hreflang="en-US"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <summary>Retrouver les captures d'écran anciennes ou volumineuses qui s'accumulent dans Photos.</summary>
+  </entry>
+  <entry>
+    <id>https://tasnif.app/photos-raw-iphone-stockage.html</id>
+    <title>Photos RAW iPhone et stockage Photos</title>
+    <link href="https://tasnif.app/photos-raw-iphone-stockage.html" rel="alternate" type="text/html" hreflang="fr-FR"/>
+    <link href="https://tasnif.app/en/raw-photos-iphone-storage.html" rel="alternate" type="text/html" hreflang="en-US"/>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <summary>Comprendre pourquoi les RAW, ProRAW et médias importés peuvent peser lourd dans Photos.</summary>
+  </entry>
+  <entry>
     <id>https://tasnif.app/iphone-stockage-plein-photos.html</id>
     <title>iPhone stockage plein à cause des photos</title>
     <link href="https://tasnif.app/iphone-stockage-plein-photos.html" rel="alternate" type="text/html" hreflang="fr-FR"/>

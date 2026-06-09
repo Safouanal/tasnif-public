@@ -194,6 +194,42 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://tasnif.app/captures-ecran-iphone-stockage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/captures-ecran-iphone-stockage.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screenshots-iphone-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://tasnif.app/en/screenshots-iphone-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/captures-ecran-iphone-stockage.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screenshots-iphone-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://tasnif.app/photos-raw-iphone-stockage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/photos-raw-iphone-stockage.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/raw-photos-iphone-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://tasnif.app/en/raw-photos-iphone-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/photos-raw-iphone-stockage.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/raw-photos-iphone-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://tasnif.app/application-tri-photos-iphone-confidentialite.html</loc>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/application-tri-photos-iphone-confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/private-iphone-photo-cleaner.html"/>
