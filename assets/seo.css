@@ -240,6 +240,28 @@ h3 {
   width: 100%;
 }
 
+.phone.ugc-phone {
+  aspect-ratio: 9 / 16;
+  height: min(70svh, 640px);
+  width: calc(min(70svh, 640px) * 0.5625);
+}
+
+.phone video {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.trust-list {
+  color: var(--muted);
+  display: grid;
+  font-weight: 650;
+  gap: 8px;
+  margin: 24px 0 0;
+  padding-left: 1.15rem;
+}
+
 .section {
   padding-bottom: clamp(52px, 7vw, 82px);
   padding-top: clamp(52px, 7vw, 82px);
@@ -413,6 +435,11 @@ h3 {
     height: auto;
     max-height: none;
     width: min(78vw, 300px);
+  }
+
+  .phone.ugc-phone {
+    height: auto;
+    width: min(86vw, 340px);
   }
 
   .card-grid,
