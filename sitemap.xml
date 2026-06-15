@@ -7,8 +7,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/</loc>
@@ -16,8 +14,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tasnif.app/guides.html</loc>
@@ -25,8 +21,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/guides.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/guides.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/guides.html</loc>
@@ -34,8 +28,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/guides.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/guides.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/support.html</loc>
@@ -43,8 +35,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/support.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/support.html</loc>
@@ -52,8 +42,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/support.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasnif.app/privacy-policy.html</loc>
@@ -61,8 +49,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/privacy-policy.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/privacy-policy.html</loc>
@@ -70,8 +56,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/privacy-policy.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tasnif.app/faq.html</loc>
@@ -79,8 +63,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/faq.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/faq.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/faq.html</loc>
@@ -88,20 +70,14 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/faq.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/faq.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://tasnif.app/llms.txt</loc>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://tasnif.app/feed.xml</loc>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://tasnif.app/ai.html</loc>
@@ -109,8 +85,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/ai.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/ai.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/ai.html</loc>
@@ -118,8 +92,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/ai.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/ai.html"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tasnif.app/liberer-espace-iphone-photos.html</loc>
@@ -127,8 +99,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/photo-storage-cleanup-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/photos-prennent-place-iphone.html</loc>
@@ -136,8 +106,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/photos-taking-most-space-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/iphone-stockage-plein-photos.html</loc>
@@ -145,8 +113,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-storage-full-photos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/iphone-storage-full-photos.html</loc>
@@ -154,8 +120,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-storage-full-photos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/avant-ajouter-stockage-iphone-photos.html</loc>
@@ -163,8 +127,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/before-adding-iphone-storage-photos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/before-adding-iphone-storage-photos.html</loc>
@@ -172,8 +134,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/before-adding-iphone-storage-photos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/photos-supprimees-iphone-espace-non-libere.html</loc>
@@ -181,8 +141,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/deleted-iphone-photos-storage-not-free.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/deleted-iphone-photos-storage-not-free.html</loc>
@@ -190,8 +148,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/deleted-iphone-photos-storage-not-free.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/photos-icloud-stockage-iphone.html</loc>
@@ -199,8 +155,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/icloud-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/icloud-photos-iphone-storage.html</loc>
@@ -208,8 +162,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/icloud-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/photos-taking-most-space-iphone.html</loc>
@@ -217,8 +169,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/photos-taking-most-space-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/photo-storage-cleanup-iphone.html</loc>
@@ -226,8 +176,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/photo-storage-cleanup-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tasnif.app/voir-taille-video-iphone.html</loc>
@@ -235,8 +183,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-video-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/iphone-video-size.html</loc>
@@ -244,8 +190,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-video-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/trier-videos-iphone-par-taille.html</loc>
@@ -253,8 +197,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/sort-iphone-videos-by-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/sort-iphone-videos-by-size.html</loc>
@@ -262,8 +204,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/sort-iphone-videos-by-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/supprimer-grosses-videos-iphone.html</loc>
@@ -271,8 +211,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/delete-large-videos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/delete-large-videos-iphone.html</loc>
@@ -280,8 +218,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/delete-large-videos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/voir-taille-photo-iphone.html</loc>
@@ -289,8 +225,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-photo-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/iphone-photo-size.html</loc>
@@ -298,8 +232,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/iphone-photo-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/trier-photos-iphone-par-taille.html</loc>
@@ -307,8 +239,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/sort-iphone-photos-by-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/sort-iphone-photos-by-size.html</loc>
@@ -316,8 +246,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/sort-iphone-photos-by-size.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/live-photos-iphone-stockage.html</loc>
@@ -325,8 +253,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/live-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/live-photos-iphone-storage.html</loc>
@@ -334,8 +260,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/live-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/photos-rafale-iphone-stockage.html</loc>
@@ -343,8 +267,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/burst-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/burst-photos-iphone-storage.html</loc>
@@ -352,8 +274,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/burst-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/videos-volumineuses-iphone.html</loc>
@@ -361,8 +281,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/large-videos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/large-videos-iphone.html</loc>
@@ -370,8 +288,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/large-videos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/anciennes-videos-iphone-stockage.html</loc>
@@ -379,8 +295,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/old-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/old-videos-iphone-storage.html</loc>
@@ -388,8 +302,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/old-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/videos-longues-iphone-stockage.html</loc>
@@ -397,8 +309,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/long-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/long-videos-iphone-storage.html</loc>
@@ -406,8 +316,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/long-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/videos-4k-iphone-stockage.html</loc>
@@ -415,8 +323,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/4k-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/4k-videos-iphone-storage.html</loc>
@@ -424,8 +330,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/4k-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/ralentis-iphone-stockage.html</loc>
@@ -433,8 +337,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/slow-motion-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/slow-motion-videos-iphone-storage.html</loc>
@@ -442,8 +344,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/slow-motion-videos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/enregistrements-ecran-iphone-espace.html</loc>
@@ -451,8 +351,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screen-recordings-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/screen-recordings-iphone-storage.html</loc>
@@ -460,8 +358,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screen-recordings-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/captures-ecran-iphone-stockage.html</loc>
@@ -469,8 +365,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screenshots-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/screenshots-iphone-storage.html</loc>
@@ -478,8 +372,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/screenshots-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/photos-raw-iphone-stockage.html</loc>
@@ -487,8 +379,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/raw-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/raw-photos-iphone-storage.html</loc>
@@ -496,8 +386,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/raw-photos-iphone-storage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/application-tri-photos-iphone-confidentialite.html</loc>
@@ -505,8 +393,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/private-iphone-photo-cleaner.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/private-iphone-photo-cleaner.html</loc>
@@ -514,8 +400,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/private-iphone-photo-cleaner.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/nettoyer-phototheque-iphone.html</loc>
@@ -523,8 +407,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/clean-iphone-photo-library.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/clean-iphone-photo-library.html</loc>
@@ -532,8 +414,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/clean-iphone-photo-library.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://tasnif.app/doublons-photos-iphone.html</loc>
@@ -541,8 +421,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/duplicate-photos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/duplicate-photos-iphone.html</loc>
@@ -550,8 +428,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/duplicate-photos-iphone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/"/>
     <lastmod>2026-06-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tasnif.app/press-kit.html</loc>
@@ -559,8 +435,6 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/press-kit.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/press-kit.html"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tasnif.app/en/press-kit.html</loc>
@@ -568,7 +442,5 @@
     <xhtml:link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/press-kit.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tasnif.app/press-kit.html"/>
     <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>

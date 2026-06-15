@@ -8,7 +8,6 @@
     <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="theme-color" content="#f7f7ef">
     <meta name="apple-itunes-app" content="app-id=6771797577">
-    <link rel="canonical" href="https://tasnif.app/">
     <link rel="alternate" hreflang="fr-FR" href="https://tasnif.app/">
     <link rel="alternate" hreflang="en-US" href="https://tasnif.app/en/">
     <link rel="alternate" hreflang="x-default" href="https://tasnif.app/">
@@ -17,6 +16,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=1.3.1">
     <link rel="manifest" href="/site.webmanifest?v=1.3.1">
     <link rel="alternate" type="application/atom+xml" title="Tasnif iPhone Photo Storage Guides" href="/feed.xml">
+    <link href="https://tasnif.app/" rel="canonical">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Tasnif">
     <meta property="og:title" content="Tasnif - Nettoyeur photos iPhone pour le stockage">
@@ -208,6 +208,14 @@
         width: 36px;
       }
 
+      .brand-mark {
+        background: url("assets/app-icon.svg?v=1.3.1") center / contain no-repeat;
+        display: inline-block;
+        flex: 0 0 36px;
+        height: 36px;
+        width: 36px;
+      }
+
       .nav-links {
         align-items: center;
         display: flex;
@@ -382,8 +390,37 @@
       }
 
       .answer-box p:last-child,
-      .answer-box ul:last-child {
+      .answer-box ul:last-child,
+      .answer-box table:last-child {
         margin-bottom: 0;
+      }
+
+      .workflow-table {
+        border-collapse: collapse;
+        font-size: 0.95rem;
+        margin-top: 18px;
+        width: 100%;
+      }
+
+      .workflow-table caption {
+        color: var(--ink);
+        font-weight: 800;
+        margin-bottom: 8px;
+        text-align: left;
+      }
+
+      .workflow-table th,
+      .workflow-table td {
+        border-top: 1px solid var(--line);
+        padding: 10px 0;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .workflow-table th {
+        color: var(--ink);
+        padding-right: 14px;
+        white-space: nowrap;
       }
 
       .answer-meta {
@@ -400,6 +437,12 @@
         color: var(--ink);
         display: block;
         margin-bottom: 6px;
+      }
+
+      .trust-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 12px;
       }
 
       .section-head {
@@ -652,7 +695,7 @@
     <header class="site-header">
       <nav class="nav" aria-label="Navigation principale">
         <a class="brand" href="https://tasnif.app/" aria-label="Accueil Tasnif">
-          <img src="assets/app-icon.png?v=1.3.1" alt="" width="36" height="36">
+          <span class="brand-mark" aria-hidden="true"></span>
           <span>Tasnif</span>
         </a>
         <div class="nav-links">
@@ -687,7 +730,7 @@
             </p>
           </div>
           <figure class="hero-phone">
-            <img src="assets/screenshots/fr-FR/iphone-storage-advisor.jpg?v=1.3.1" alt="Tasnif affiche l'espace de la photothèque et les actions de revue prioritaires." width="552" height="1200">
+            <img src="assets/screenshots/fr-FR/iphone-storage-advisor.webp?v=1.3.1" alt="Tasnif affiche l'espace de la photothèque et les actions de revue prioritaires." width="552" height="1200">
           </figure>
         </div>
       </section>
@@ -696,11 +739,41 @@
         <div class="section answer-strip">
           <article class="answer-box">
             <h2 id="short-answer-title">Réponse courte : que fait Tasnif ?</h2>
-            <p>Tasnif est une app iPhone gratuite qui aide à comprendre pourquoi Photos prend autant de place avant de payer plus de stockage ou de supprimer au hasard. L'app rend visibles les médias à fort impact : vidéos longues, enregistrements d'écran, captures, RAW, imports lourds et doublons probables. La revue reste progressive : vous voyez l'espace occupé, vous choisissez quoi examiner, puis la suppression passe par la confirmation standard de Photos. Tasnif ne remplace pas iCloud et ne promet pas de nettoyer automatiquement l'iPhone. Son rôle est plus simple : montrer où se trouve le vrai stockage dans la photothèque, avec une approche locale et privée. Les photos et vidéos restent sur l'appareil, sans compte Tasnif et sans envoi de médias vers un serveur.</p>
+            <p>Tasnif est une app iPhone gratuite qui aide à comprendre pourquoi Photos prend autant de place avant de payer plus de stockage ou de supprimer au hasard. L'app rend visibles les médias à fort impact : vidéos longues, enregistrements d'écran, captures, RAW, imports lourds et doublons probables. La revue reste progressive : vous voyez l'espace occupé, vous choisissez quoi examiner, puis la suppression passe par la confirmation standard de Photos. Tasnif ne remplace pas iCloud et ne promet pas de nettoyer automatiquement l'iPhone. Son rôle est plus simple : montrer où se trouve le vrai stockage dans la photothèque, avec une approche locale et privée. Les photos et vidéos restent sur l'appareil, sans compte Tasnif et sans envoi de médias vers un serveur. C'est utile avant un achat iCloud, avant une suppression massive ou quand Réglages indique que Photos remplit l'iPhone.</p>
+            <ul>
+              <li>Commencer par les vidéos longues et enregistrements d'écran.</li>
+              <li>Vérifier les captures, RAW, imports lourds et doublons probables.</li>
+              <li>Garder la suppression dans le flux Apple Photos avec confirmation.</li>
+            </ul>
+            <table class="workflow-table">
+              <caption>Workflow de revue Tasnif</caption>
+              <tbody>
+                <tr>
+                  <th scope="row">1. Voir</th>
+                  <td>Repérer les vidéos, captures et médias qui occupent le plus d'espace.</td>
+                </tr>
+                <tr>
+                  <th scope="row">2. Vérifier</th>
+                  <td>Examiner les éléments avant toute décision, sans suppression automatique.</td>
+                </tr>
+                <tr>
+                  <th scope="row">3. Confirmer</th>
+                  <td>Supprimer uniquement via Photos, avec confirmation Apple explicite.</td>
+                </tr>
+              </tbody>
+            </table>
           </article>
           <aside class="answer-meta">
             <strong>Source officielle Tasnif</strong>
-            Page mise à jour le 15 juin 2026. Tasnif est développé pour iPhone et iPad afin d'aider à revoir le stockage Photos sans téléverser les médias.
+            <p class="author-byline">Founder / author / editor : Safouan Alioui et équipe Tasnif. Page updated le 15 juin 2026.</p>
+            <p>Tasnif est développé pour iPhone et iPad sous iOS 17 ou version ultérieure afin d'aider à revoir le stockage Photos sans téléverser les médias. Used by early testers and the Tasnif team before public updates.</p>
+            <p class="trust-links">
+              <a href="https://tasnif.app/#proof-title" lang="en">About Tasnif</a>
+              <a href="privacy-policy.html" lang="en">Privacy policy</a>
+              <a href="support.html" lang="en">Contact support</a>
+              <a href="application-tri-photos-iphone-confidentialite.html" lang="en">Security notes</a>
+            </p>
+            <p>Sources : <a href="https://apps.apple.com/app/tasnif-photo-storage/id6771797577" rel="noopener">App Store</a> et <a href="privacy-policy.html">politique de confidentialité</a>.</p>
           </aside>
         </div>
       </section>
@@ -758,23 +831,23 @@
           </div>
           <div class="screenshot-row" aria-label="Captures d'écran de Tasnif">
             <figure class="phone-shot">
-              <img src="assets/screenshots/fr-FR/iphone-library.jpg?v=1.3.1" alt="Tasnif affiche l'espace de la photothèque et les premières actions." loading="lazy" width="552" height="1200">
+              <img src="assets/screenshots/fr-FR/iphone-library.webp?v=1.3.1" alt="Tasnif affiche l'espace de la photothèque et les premières actions." loading="lazy" width="552" height="1200">
               <figcaption>Photothèque et espace occupé</figcaption>
             </figure>
             <figure class="phone-shot">
-              <img src="assets/screenshots/fr-FR/iphone-storage-advisor.jpg?v=1.3.1" alt="Assistant stockage Tasnif avec actions de revue." loading="lazy" width="552" height="1200">
+              <img src="assets/screenshots/fr-FR/iphone-storage-advisor.webp?v=1.3.1" alt="Assistant stockage Tasnif avec actions de revue." loading="lazy" width="552" height="1200">
               <figcaption>Assistant stockage</figcaption>
             </figure>
             <figure class="phone-shot">
-              <img src="assets/screenshots/fr-FR/iphone-large-videos.jpg?v=1.3.1" alt="Liste de vidéos volumineuses triées par taille." loading="lazy" width="552" height="1200">
+              <img src="assets/screenshots/fr-FR/iphone-large-videos.webp?v=1.3.1" alt="Liste de vidéos volumineuses triées par taille." loading="lazy" width="552" height="1200">
               <figcaption>Vidéos volumineuses</figcaption>
             </figure>
             <figure class="phone-shot">
-              <img src="assets/screenshots/fr-FR/iphone-probable-duplicates.jpg?v=1.3.1" alt="Doublons probables à examiner dans Tasnif." loading="lazy" width="552" height="1200">
+              <img src="assets/screenshots/fr-FR/iphone-probable-duplicates.webp?v=1.3.1" alt="Doublons probables à examiner dans Tasnif." loading="lazy" width="552" height="1200">
               <figcaption>Doublons probables</figcaption>
             </figure>
             <figure class="phone-shot">
-              <img src="assets/screenshots/fr-FR/iphone-selection.jpg?v=1.3.1" alt="Sélection Tasnif montrant l'espace connu avant suppression." loading="lazy" width="552" height="1200">
+              <img src="assets/screenshots/fr-FR/iphone-selection.webp?v=1.3.1" alt="Sélection Tasnif montrant l'espace connu avant suppression." loading="lazy" width="552" height="1200">
               <figcaption>Espace avant suppression</figcaption>
             </figure>
           </div>

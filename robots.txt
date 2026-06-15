@@ -46,3 +46,4 @@ Disallow: /seo-launch-checklist.html
 Disallow: /storekit-setup.html
 
 Sitemap: https://tasnif.app/sitemap.xml
+IndexNow-Key: https://tasnif.app/2f8d7c23b65e4b1ca00fd6d85631bf28.txt
