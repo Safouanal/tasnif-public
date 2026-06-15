@@ -25,8 +25,8 @@ Tasnif is a privacy-focused iPhone photo storage app. It helps users see what ta
 ## Key Facts
 
 - Name: Tasnif
-- French App Store name: Tasnif: Tri Photos
-- English App Store name: Tasnif: Photo Storage
+- French App Store name: Tasnif: Nettoyeur Photos
+- English App Store name: Photo Storage Cleaner: Tasnif
 - Main use case: understand and review iPhone photo and video storage
 - Priority signal: occupied space in the Photos library
 - Priority media: large videos and other high-impact media

@@ -189,6 +189,30 @@ h3 {
   max-width: 760px;
 }
 
+.answer-box {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  margin: 0 0 28px;
+  padding: 20px;
+}
+
+.answer-box h2 {
+  font-size: 1.35rem;
+  line-height: 1.16;
+  margin-bottom: 10px;
+}
+
+.answer-box p:last-child,
+.answer-box ul:last-child {
+  margin-bottom: 0;
+}
+
+.source-note {
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
 .actions {
   align-items: center;
   display: flex;
