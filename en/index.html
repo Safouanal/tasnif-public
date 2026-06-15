@@ -31,23 +31,74 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Photo Storage Cleaner: Tasnif",
-        "alternateName": "Tasnif: Nettoyeur Photos",
-        "operatingSystem": "iOS 17.0 or later",
-        "applicationCategory": "Photo & Video",
-        "url": "https://tasnif.app/en/",
-        "downloadUrl": "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
-        "image": "https://tasnif.app/assets/app-icon.png?v=1.3.1",
-        "description": "Tasnif helps iPhone and iPad users understand what takes space in their Photos library, starting with large videos, screenshots, RAW files and probable duplicates. Media stays on device.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "sameAs": [
-          "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
-          "https://www.instagram.com/tasnif.app/"
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://tasnif.app/#organization",
+            "name": "Tasnif",
+            "url": "https://tasnif.app/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://tasnif.app/assets/app-icon.png?v=1.3.1"
+            },
+            "sameAs": [
+              "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
+              "https://www.instagram.com/tasnif.app/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://tasnif.app/#website",
+            "name": "Tasnif",
+            "url": "https://tasnif.app/",
+            "inLanguage": "en-US",
+            "publisher": {
+              "@id": "https://tasnif.app/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://tasnif.app/en/#webpage",
+            "url": "https://tasnif.app/en/",
+            "name": "Photo Storage Cleaner: Tasnif for iPhone",
+            "description": "Free iPhone photo storage cleaner. Tasnif shows large videos, screenshots, RAW files and duplicate groups taking space in Photos.",
+            "datePublished": "2026-06-09",
+            "dateModified": "2026-06-15",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@id": "https://tasnif.app/#website"
+            },
+            "about": {
+              "@id": "https://tasnif.app/#app"
+            },
+            "publisher": {
+              "@id": "https://tasnif.app/#organization"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://tasnif.app/#app",
+            "name": "Photo Storage Cleaner: Tasnif",
+            "alternateName": "Tasnif: Nettoyeur Photos",
+            "operatingSystem": "iOS 17.0 or later",
+            "applicationCategory": "Photo & Video",
+            "url": "https://tasnif.app/en/",
+            "downloadUrl": "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
+            "image": "https://tasnif.app/assets/app-icon.png?v=1.3.1",
+            "description": "Tasnif helps iPhone and iPad users understand what takes space in their Photos library, starting with large videos, screenshots, RAW files and probable duplicates. Media stays on device.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "publisher": {
+              "@id": "https://tasnif.app/#organization"
+            },
+            "sameAs": [
+              "https://apps.apple.com/app/tasnif-photo-storage/id6771797577",
+              "https://www.instagram.com/tasnif.app/"
+            ]
+          }
         ]
       }
     </script>
@@ -117,6 +168,18 @@
             <p class="availability-note">Free on the App Store for iPhone and iPad.</p>
           </div>
           <figure class="phone"><img src="../assets/screenshots/en-US/iphone-storage-advisor.jpg?v=1.3.1" alt="Tasnif shows photo library storage and priority review actions." width="552" height="1200"></figure>
+        </div>
+      </section>
+      <section class="band white" aria-labelledby="short-answer-title">
+        <div class="section answer-strip">
+          <article class="answer-box">
+            <h2 id="short-answer-title">Short answer: what does Tasnif do?</h2>
+            <p>Tasnif is a free iPhone app that helps you understand why Photos is using so much storage before you pay for more space or delete random pictures. It surfaces the high-impact media that is easy to miss: long videos, screen recordings, screenshots, RAW photos, heavy imports and probable duplicate groups. The review stays gradual: you see occupied space, choose what to inspect, then deletion still goes through the standard Apple Photos confirmation. Tasnif does not replace iCloud and does not promise automatic cleanup. Its job is simpler: show where the real storage is inside the Photos library with a local, private workflow. Photos and videos stay on the device, with no Tasnif account and no media upload to a Tasnif server.</p>
+          </article>
+          <aside class="answer-meta">
+            <strong>Official Tasnif source</strong>
+            Updated June 15, 2026. Tasnif is built for iPhone and iPad to help review Photos storage without uploading media.
+          </aside>
         </div>
       </section>
       <section class="band white" id="how">
