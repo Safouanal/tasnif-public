@@ -1,0 +1,11 @@
+name = "tasnif-creator-application"
+main = "workers/creator-application.js"
+compatibility_date = "2026-06-16"
+
+routes = [
+  { pattern = "tasnif.app/api/createur", zone_name = "tasnif.app" },
+  { pattern = "www.tasnif.app/api/createur", zone_name = "tasnif.app" }
+]
+
+[vars]
+ALLOWED_ORIGINS = "https://tasnif.app,https://www.tasnif.app"

@@ -6,7 +6,7 @@
     <title>Postuler au programme créateurs Tasnif</title>
     <meta name="description" content="Postule au programme créateurs Tasnif pour publier des vidéos courtes sur le stockage iPhone et l'espace occupé par Photos.">
     <meta name="robots" content="index,follow,noarchive">
-    <link rel="stylesheet" href="assets/seo.css?v=creator-20260616-6">
+    <link rel="stylesheet" href="assets/seo.css?v=creator-20260616-7">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon-32x32.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -35,6 +35,11 @@
         <label>
           Prénom et nom
           <input name="name" autocomplete="name" required>
+        </label>
+
+        <label class="apply-hp" aria-hidden="true">
+          Site web
+          <input name="website" autocomplete="off" tabindex="-1">
         </label>
 
         <label>
@@ -92,9 +97,18 @@
         <button class="creator-button primary" type="submit">Envoyer ma candidature</button>
         <p class="apply-note">Tu peux mettre un lien complet ou juste ton nom de compte.</p>
       </form>
+
+      <section class="apply-success" id="apply-success" hidden>
+        <p class="creator-kicker">Candidature envoyée</p>
+        <h2>Merci <span id="apply-success-name"></span> !</h2>
+        <p>On revient vers vous très vite. Réponse estimée : moins de 4h.</p>
+        <a class="creator-button secondary" href="createurs.html">Revoir le programme</a>
+      </section>
     </main>
 
     <script>
+      const CREATOR_APPLICATION_ENDPOINT = '/api/createur';
+
       function normalizeSocialAccount(value) {
         const raw = String(value || '').trim();
         if (!raw) return '';
@@ -107,28 +121,65 @@
         return '@' + raw;
       }
 
-      document.getElementById('creator-application').addEventListener('submit', function (event) {
+      function getFirstName(fullName) {
+        const cleanName = String(fullName || '').trim().replace(/\s+/g, ' ');
+        if (!cleanName) return '';
+        return cleanName.split(' ')[0];
+      }
+
+      function showSuccess(fullName) {
+        const form = document.getElementById('creator-application');
+        const success = document.getElementById('apply-success');
+        const name = document.getElementById('apply-success-name');
+        name.textContent = getFirstName(fullName) || 'pour ta candidature';
+        form.hidden = true;
+        success.hidden = false;
+        success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      async function sendApplication(payload) {
+        const response = await fetch(CREATOR_APPLICATION_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+          throw new Error('Application submit failed');
+        }
+      }
+
+      document.getElementById('creator-application').addEventListener('submit', async function (event) {
         event.preventDefault();
-        const data = new FormData(event.currentTarget);
+        const form = event.currentTarget;
+        const button = form.querySelector('button[type="submit"]');
+        const data = new FormData(form);
         const social = normalizeSocialAccount(data.get('social'));
-        const lines = [
-          'Candidature createur Tasnif',
-          '',
-          'Nom : ' + (data.get('name') || ''),
-          'Email : ' + (data.get('email') || ''),
-          'Compte : ' + social,
-          'Pays / ville : ' + (data.get('location') || ''),
-          'iPhone : ' + (data.get('iphone') || ''),
-          'Abonnes : ' + (data.get('followers') || '0'),
-          'A deja utilise Tasnif : ' + (data.get('used') || ''),
-          'Videos possibles cette semaine : ' + (data.get('capacity') || ''),
-          '',
-          'Idee de video :',
-          data.get('idea') || ''
-        ];
-        const subject = encodeURIComponent('Candidature createur Tasnif');
-        const body = encodeURIComponent(lines.join('\n'));
-        window.location.href = 'mailto:contact@tasnif.app?subject=' + subject + '&body=' + body;
+        const payload = {
+          source: 'tasnif.app/postuler.html',
+          name: data.get('name') || '',
+          email: data.get('email') || '',
+          social,
+          location: data.get('location') || '',
+          iphone: data.get('iphone') || '',
+          followers: data.get('followers') || '0',
+          used: data.get('used') || '',
+          capacity: data.get('capacity') || '',
+          idea: data.get('idea') || '',
+          website: data.get('website') || ''
+        };
+
+        button.disabled = true;
+        button.textContent = 'Envoi...';
+
+        try {
+          await sendApplication(payload);
+          showSuccess(payload.name);
+        } catch (error) {
+          button.disabled = false;
+          button.textContent = 'Envoyer ma candidature';
+          alert("L'envoi n'a pas fonctionné. Réessaie dans quelques minutes.");
+        }
       });
     </script>
   </body>
