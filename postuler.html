@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Postuler au programme créateurs Tasnif</title>
+    <meta name="description" content="Postule au programme créateurs Tasnif pour publier des vidéos courtes sur le stockage iPhone et l'espace occupé par Photos.">
+    <meta name="robots" content="index,follow,noarchive">
+    <link rel="stylesheet" href="assets/seo.css">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://tasnif.app/postuler.html" rel="canonical">
+    <meta property="og:title" content="Postuler au programme créateurs Tasnif">
+    <meta property="og:description" content="Envoie ton lien TikTok, Reels ou Shorts. On te répond avec les formats vidéo Tasnif.">
+    <meta property="og:image" content="https://tasnif.app/assets/screenshots/fr-FR/iphone-storage-advisor.jpg">
+    <meta property="og:url" content="https://tasnif.app/postuler.html">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="creator-page apply-page">
+    <main class="apply-shell">
+      <div class="apply-topbar">
+        <a href="createurs.html">← Retour</a>
+        <span>Tasnif</span>
+      </div>
+
+      <section class="apply-intro">
+        <p class="creator-kicker">Candidature</p>
+        <h1>Postuler au programme créateurs Tasnif</h1>
+        <p>Réponds à ces questions. On regarde ton lien TikTok/Reels/Shorts, ton iPhone et le type de vidéos que tu peux publier.</p>
+      </section>
+
+      <form class="apply-form" id="creator-application">
+        <label>
+          Prénom et nom
+          <input name="name" autocomplete="name" required>
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+
+        <label>
+          Lien TikTok, Reels ou Shorts
+          <input name="social" type="url" placeholder="https://www.tiktok.com/@..." required>
+        </label>
+
+        <label>
+          Pays et ville
+          <input name="location" autocomplete="address-level2" required>
+        </label>
+
+        <label>
+          Modèle de ton iPhone
+          <input name="iphone" placeholder="Exemple : iPhone 13, iPhone 15 Pro..." required>
+        </label>
+
+        <label>
+          Nombre d'abonnés actuel
+          <input name="followers" type="number" min="0" inputmode="numeric" placeholder="0">
+        </label>
+
+        <fieldset>
+          <legend>As-tu déjà utilisé Tasnif ?</legend>
+          <div class="apply-choice-row">
+            <label><input type="radio" name="used" value="Oui" required> Oui</label>
+            <label><input type="radio" name="used" value="Non"> Non</label>
+          </div>
+        </fieldset>
+
+        <label>
+          Combien de vidéos peux-tu poster cette semaine ?
+          <input name="capacity" type="number" min="1" inputmode="numeric" required>
+        </label>
+
+        <label>
+          Ce que tu filmerais en premier
+          <textarea name="idea" rows="4" placeholder="Exemple : je montre Photos qui prend beaucoup de stockage, puis Tasnif qui trie les grosses vidéos."></textarea>
+        </label>
+
+        <label class="apply-terms">
+          <input type="checkbox" name="terms" required>
+          <span>J'ai compris que seules les vidéos validées et publiées sont rémunérées, et que le contenu doit montrer Tasnif honnêtement.</span>
+        </label>
+
+        <button class="creator-button primary" type="submit">Envoyer ma candidature</button>
+        <p class="apply-note">Le bouton ouvre un email prérempli. Tu peux relire avant d'envoyer.</p>
+      </form>
+    </main>
+
+    <script>
+      document.getElementById('creator-application').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const data = new FormData(event.currentTarget);
+        const lines = [
+          'Candidature createur Tasnif',
+          '',
+          'Nom : ' + (data.get('name') || ''),
+          'Email : ' + (data.get('email') || ''),
+          'Compte : ' + (data.get('social') || ''),
+          'Pays / ville : ' + (data.get('location') || ''),
+          'iPhone : ' + (data.get('iphone') || ''),
+          'Abonnes : ' + (data.get('followers') || '0'),
+          'A deja utilise Tasnif : ' + (data.get('used') || ''),
+          'Videos possibles cette semaine : ' + (data.get('capacity') || ''),
+          '',
+          'Idee de video :',
+          data.get('idea') || ''
+        ];
+        const subject = encodeURIComponent('Candidature createur Tasnif');
+        const body = encodeURIComponent(lines.join('\n'));
+        window.location.href = 'mailto:contact@tasnif.app?subject=' + subject + '&body=' + body;
+      });
+    </script>
+  </body>
+</html>
