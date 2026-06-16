@@ -6,7 +6,7 @@
     <title>Postuler au programme créateurs Tasnif</title>
     <meta name="description" content="Postule au programme créateurs Tasnif pour publier des vidéos courtes sur le stockage iPhone et l'espace occupé par Photos.">
     <meta name="robots" content="index,follow,noarchive">
-    <link rel="stylesheet" href="assets/seo.css?v=creator-20260616-5">
+    <link rel="stylesheet" href="assets/seo.css?v=creator-20260616-6">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon-32x32.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -44,7 +44,7 @@
 
         <label>
           Lien TikTok, Reels ou Shorts
-          <input name="social" type="url" placeholder="https://www.tiktok.com/@..." required>
+          <input name="social" type="text" inputmode="text" autocomplete="off" placeholder="@toncompte, toncompte ou lien complet" required>
         </label>
 
         <label>
@@ -70,10 +70,14 @@
           </div>
         </fieldset>
 
-        <label>
-          Combien de vidéos peux-tu poster cette semaine ?
-          <input name="capacity" type="number" min="1" inputmode="numeric" required>
-        </label>
+        <fieldset>
+          <legend>Combien de vidéos peux-tu poster cette semaine ?</legend>
+          <div class="apply-choice-row three">
+            <label><input type="radio" name="capacity" value="1" required> 1</label>
+            <label><input type="radio" name="capacity" value="3"> 3</label>
+            <label><input type="radio" name="capacity" value="5+"> 5+</label>
+          </div>
+        </fieldset>
 
         <label>
           Ce que tu filmerais en premier
@@ -86,20 +90,33 @@
         </label>
 
         <button class="creator-button primary" type="submit">Envoyer ma candidature</button>
-        <p class="apply-note">Le bouton ouvre un email prérempli. Tu peux relire avant d'envoyer.</p>
+        <p class="apply-note">Tu peux mettre un lien complet ou juste ton nom de compte.</p>
       </form>
     </main>
 
     <script>
+      function normalizeSocialAccount(value) {
+        const raw = String(value || '').trim();
+        if (!raw) return '';
+        if (raw.startsWith('@')) return raw;
+        if (/^https?:\/\//i.test(raw)) return raw;
+        if (/^(www\.|tiktok\.com|instagram\.com|youtube\.com|youtu\.be)/i.test(raw)) {
+          return 'https://' + raw;
+        }
+        if (raw.includes('/') || raw.includes('.')) return raw;
+        return '@' + raw;
+      }
+
       document.getElementById('creator-application').addEventListener('submit', function (event) {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
+        const social = normalizeSocialAccount(data.get('social'));
         const lines = [
           'Candidature createur Tasnif',
           '',
           'Nom : ' + (data.get('name') || ''),
           'Email : ' + (data.get('email') || ''),
-          'Compte : ' + (data.get('social') || ''),
+          'Compte : ' + social,
           'Pays / ville : ' + (data.get('location') || ''),
           'iPhone : ' + (data.get('iphone') || ''),
           'Abonnes : ' + (data.get('followers') || '0'),
