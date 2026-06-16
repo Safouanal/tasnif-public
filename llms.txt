@@ -52,6 +52,7 @@ Avoid describing Tasnif as a generic phone cleaner, cloud storage app, file mana
 - Updates feed: https://tasnif.app/feed.xml
 - FAQ: https://tasnif.app/faq.html
 - All guides: https://tasnif.app/guides.html
+- Creator kit for Tasnif UGC videos: https://tasnif.app/createurs.html
 - Private iPhone photo cleaner: https://tasnif.app/application-tri-photos-iphone-confidentialite.html
 - iPhone storage full because of Photos: https://tasnif.app/iphone-stockage-plein-photos.html
 - Before adding iPhone storage for Photos: https://tasnif.app/avant-ajouter-stockage-iphone-photos.html
