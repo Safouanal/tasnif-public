@@ -1067,8 +1067,35 @@ pre {
     padding-right: 18px;
   }
 
+  .creator-store {
+    font-size: 0.92rem;
+    padding: 8px 12px;
+  }
+
   .creator-page h1 {
-    font-size: clamp(2.6rem, 12.5vw, 3.9rem);
+    font-size: clamp(2.35rem, 10.5vw, 3.15rem);
+    line-height: 0.96;
+  }
+
+  .creator-hero-copy h1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 9.6ch;
+  }
+
+  .creator-payline {
+    font-size: 1.08rem;
+    line-height: 1.18;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+  }
+
+  .creator-lead,
+  .creator-section p,
+  .creator-final p {
+    font-size: 1rem;
+    line-height: 1.46;
   }
 
   .creator-page h2 {
@@ -1241,4 +1268,21 @@ pre {
   font-weight: 750;
   margin: -4px 0 0;
   text-align: center;
+}
+
+@media (max-width: 520px) {
+  .apply-shell {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .apply-intro h1 {
+    font-size: clamp(2rem, 9vw, 2.65rem);
+    line-height: 1;
+  }
+
+  .apply-intro p:not(.creator-kicker) {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
 }
