@@ -722,6 +722,10 @@ pre {
   margin-bottom: 18px;
 }
 
+.creator-payline span {
+  display: inline;
+}
+
 .creator-lead,
 .creator-section p,
 .creator-apply p,
@@ -1068,19 +1072,18 @@ pre {
   }
 
   .creator-store {
-    font-size: 0.92rem;
-    padding: 8px 12px;
+    display: none;
   }
 
   .creator-page h1 {
-    font-size: clamp(2.35rem, 10.5vw, 3.15rem);
+    font-size: clamp(2.25rem, 10vw, 3rem);
     line-height: 0.96;
   }
 
   .creator-hero-copy h1 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 9.6ch;
+    max-width: 10.8ch;
   }
 
   .creator-payline {
@@ -1091,11 +1094,18 @@ pre {
     max-width: 320px;
   }
 
+  .creator-payline span {
+    display: block;
+  }
+
   .creator-lead,
   .creator-section p,
   .creator-final p {
     font-size: 1rem;
     line-height: 1.46;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 330px;
   }
 
   .creator-page h2 {
