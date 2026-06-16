@@ -782,9 +782,9 @@ pre {
 .creator-phone {
   aspect-ratio: 552 / 1200;
   background: #111;
-  border: 9px solid #151116;
-  border-radius: 34px;
-  box-shadow: 0 24px 50px rgba(76, 31, 51, 0.24);
+  border: 5px solid #171217;
+  border-radius: 28px;
+  box-shadow: 0 22px 46px rgba(76, 31, 51, 0.2);
   margin: 0;
   overflow: hidden;
   position: absolute;
@@ -800,16 +800,26 @@ pre {
 .creator-phone.main {
   left: 5%;
   top: 7%;
-  width: 50%;
+  width: 51%;
   z-index: 2;
 }
 
 .creator-phone.back {
-  right: 3%;
-  top: 15%;
-  transform: rotate(5deg);
-  width: 44%;
+  right: 4%;
+  top: 16%;
+  transform: rotate(4deg);
+  width: 43%;
   z-index: 1;
+}
+
+.creator-phone.creator-pose {
+  aspect-ratio: 540 / 960;
+  border-color: #20161f;
+  box-shadow: 0 24px 48px rgba(76, 31, 51, 0.24);
+}
+
+.creator-phone.creator-pose img {
+  object-position: center;
 }
 
 .creator-section {
